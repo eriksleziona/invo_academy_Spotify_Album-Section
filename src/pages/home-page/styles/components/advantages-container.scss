@@ -1,4 +1,5 @@
 .advantages-container {
+  margin: 70px 0;
   padding: 24px;
   width: 100%;
   height: 100%;
@@ -6,5 +7,6 @@
   max-height: 470px;
   display: flex;
   gap: 16px;
+  border-radius: var(--container-border-radius);
   border: 1px solid var(--section-border-color);
 }

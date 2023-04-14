@@ -3,13 +3,16 @@
 /// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
 
 :root {
+  --global-bg-color: #121212;
   --color-primary: #5721f2;
   --color-on-surface: #000;
   --section-border-color: #343434;
   --color-white: #fff;
   --card-bg-color: #292929;
+  --card-container-bg-color: #121212;
   --btn-primary-bg-color: #65d46e;
 
   --btn-border-radius: 200px;
   --img-border-radius: 16px;
+  --container-border-radius: 32px;
 }
