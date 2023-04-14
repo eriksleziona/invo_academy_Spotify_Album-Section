@@ -1,7 +1,10 @@
 /// Homepage Styles File
 /// Here we import all the Styles files we need for our Homepage.
-/// 
-/// 
+///
+///
+@import "components/advantages-container.scss";
+@import "components/advantages-card.scss";
+@import "components/btn.scss";
 
 #home-page {
   display: flex;

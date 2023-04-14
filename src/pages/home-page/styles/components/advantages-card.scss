@@ -1,0 +1,33 @@
+@import "../mixins/mixin.scss";
+
+.advantages-card {
+  width: 352px;
+  height: 422px;
+  background-color: var(--card-bg-color);
+  padding: 24px 24px 32px 24px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+
+  & &__image-container {
+    width: 140px;
+    height: 140px;
+  }
+
+  & &__image {
+    border-radius: var(--img-border-radius);
+  }
+
+  & &__text-title {
+    width: 85%;
+    margin: 24px 0 0 0;
+    @include card-title-fonts-style;
+  }
+
+  & &__text-desc {
+    margin: 16px 0 0 0;
+    color: var(--color-white);
+    opacity: 0.5;
+    @include card-desc-font-style;
+  }
+}
