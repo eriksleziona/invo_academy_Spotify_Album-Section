@@ -3,7 +3,6 @@
   max-height: 48px;
   max-width: 165px;
   border-radius: var(--btn-border-radius);
-  margin-top: auto;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -20,6 +19,7 @@
   }
 
   &--primary {
+    margin-top: auto;
     background: var(--btn-primary-bg-color);
   }
 

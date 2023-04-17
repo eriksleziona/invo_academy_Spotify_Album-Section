@@ -13,3 +13,8 @@
   line-height: 140%;
   letter-spacing: -0.01em;
 }
+
+@mixin container-border {
+  border-radius: var(--container-border-radius);
+  border: 1px solid var(--section-border-color);
+}
