@@ -7,20 +7,41 @@
   margin-top: 24px;
   max-width: 1136px;
   max-height: 179px;
+
   @include container-border;
 
   & &__content {
+    position: relative;
+    overflow: hidden;
     height: 128px;
     padding: 40px 32px;
+    z-index: 3;
     border-radius: var(--banner-content-border-radius);
     background: linear-gradient(90.79deg, #65d46e -8.89%, #0b280d 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  & &__content-wrapper {
+    z-index: 1;
   }
   & &__content-title {
     width: 303px;
     color: var(--color-white);
     @include card-title-fonts-style;
+  }
+
+  & &__content-image {
+    position: absolute;
+    background: linear-gradient(270deg, #0b280d 0%, rgba(11, 40, 13, 0) 100%);
+    width: 849px;
+    height: 555px;
+    left: 510px;
+    top: -202px;
+    img {
+      position: relative;
+      z-index: -1;
+    }
   }
 }
