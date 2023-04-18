@@ -18,3 +18,14 @@
   border-radius: var(--container-border-radius);
   border: 1px solid var(--section-border-color);
 }
+
+@mixin sentence-shorten($line-h-value) {
+  overflow: hidden;
+  max-height: calc($line-h-value * 3);
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+}

@@ -11,4 +11,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 70px 32px;
+
+  @media (max-width: 992px) {
+    padding: 42px 32px;
+  }
 }
